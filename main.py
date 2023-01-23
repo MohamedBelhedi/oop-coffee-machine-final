@@ -9,6 +9,8 @@ menu = Menu()
 is_on = True
 
 while is_on:
+    print("Welcome to the Coffee Machine choose your drink")
+    menu.get_cost()
     options = menu.get_items()
     choice = input(f"What would you like? ({options}): ")
     if choice == "off":
